@@ -1,0 +1,91 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 207, 207);
+  }
+  
+  .logincontainer {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+  }
+  
+  .logintitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(36, 41, 46);
+    text-align: center;
+  }
+  
+  
+  .username,
+  .password {
+    font-size: 18px;
+    color: rgb(36, 41, 46);
+  }
+  
+  .inputname,
+  .inputpass {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .loginbtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loginbtn,
+  .newaccount {
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(52, 152, 219);
+    border-color: rgb(52, 152, 219);
+    height: 40px;
+  }
+  
+  .newaccount {
+    background-color: rgb(46, 204, 113);
+    border-color: rgb(46, 204, 113);
+    height: 40px;
+  }
+  
+  .loginbtn,
+  .newaccount {
+    font-size: 18px;
+  }
+  
+  .newaccount:hover,
+  .loginbtn:hover {
+    background-color: rgb(41, 128, 185);
+    border-color: rgb(41, 128, 185);
+  }
+  
+  .newaccount:focus,
+  .loginbtn:focus {
+    box-shadow: 0 0 0 2px rgb(52, 152, 219);
+  }
+  
+  .newaccount:active,
+  .loginbtn:active {
+    background-color: rgb(33, 97, 140);
+    border-color: rgb(33, 97, 140);
+  }
+  
+  @media (max-width: 768px) {
+    .logincontainer {
+      width: 80%;
+    }
+  }
+
+  .error {
+    color: #dc3545;
+    font-size: 14px;
+}
+  

@@ -1,0 +1,97 @@
+.seat {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .titlecon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title{
+    color: blueviolet;
+  }
+  
+  .dropdown{
+    padding: 3px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: .2cm;
+    height: 100vh; 
+  }
+  
+  .nan {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .green {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .black {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .demo>div{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+  }
+  
+  .demo{
+    display: flex;
+    column-gap: 40px;
+    background-color:rgb(186, 185, 182);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selected {
+    background-color: green;
+  }
+  
+  .booked {
+    background-color: black;
+  
+  }
+  
+  
+  .seats-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: rgb(186, 185, 182);
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+  }
+  
+  .seatprice{
+   position: relative;
+   top: -10px;
+  }
+  .book{
+    padding: 5px;
+  }
